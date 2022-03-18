@@ -5,6 +5,7 @@
 // @description  type and lamp adding and autopersing formatting
 // @match      https://score.iidx.app/*
 // @copyright  2022+, I
+// @run-at context-menu
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
 // ==/UserScript==
 
