@@ -33,5 +33,7 @@ $(function() {
 		parents.eq(i).children().eq(0).children().append(type);
 		parents.eq(i).children().eq(1).append(lamp);
 	}
-
+	const table = $("table");
+	document.getSelection().selectAllChildren(table[0]);
+	document.execCommand('copy');
 });
