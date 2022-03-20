@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       ISTformatter
 // @namespace  https://score.iidx.app
-// @version    0.3
+// @version    0.5
 // @description  type and lamp adding and autopersing formatting
 // @match      https://score.iidx.app/*
 // @copyright  2022+, I
