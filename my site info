@@ -1,0 +1,9 @@
+MY_SITEINFO = [
+  // url, nextLink, pageElement は必須。他は省略可。
+  {
+    url: '^https://score\\.iidx\\.app/',
+    nextLink: '//a[@class="pagination-next"]',
+    insertBefore: '',
+    pageElement: "//table[@class='table is-striped is-hoverable is-fullwidth']/tbody",
+  }
+];
