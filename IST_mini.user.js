@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       IST_mini
 // @namespace  https://score.iidx.app
-// @version    0.1
+// @version    0.2
 // @description  type and lamp adding and autopersing formatting
 // @match      https://score.iidx.app/*
 // @copyright  2022+, I
@@ -17,6 +17,7 @@ $(function() {
 	})());
 	$(".autopagerize_page_separator").remove();
 	$(".autopagerize_page_info").remove();
+	$("table").not(".is-striped").remove()
 	$("table thead").remove()
 
   //  変換部丸々削除
