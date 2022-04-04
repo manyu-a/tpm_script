@@ -4,6 +4,6 @@ MY_SITEINFO = [
     url: '^https://score\\.iidx\\.app/',
     nextLink: '//a[@class="pagination-next"]',
     insertBefore: '',
-    pageElement: "//table[@class='table is-striped is-hoverable is-fullwidth']/tbody",
+    pageElement: "//table[contains(@class,'is')]/tbody",
   }
 ];
