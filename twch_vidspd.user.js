@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         twittch videospeed display
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.3.1
 // @description  display the videospeed
 // @author       ichigatsu
 // @match        https://www.twitch.tv/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nyanco.me
 // @grant        none
+// @downloadURL  https://github.com/manyu-a/tpm_script/raw/main/twch_vidspd.user.js
 // @updateURL    https://github.com/manyu-a/tpm_script/raw/main/twch_vidspd.user.js
 // ==/UserScript==
 
