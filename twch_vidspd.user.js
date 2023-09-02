@@ -1,19 +1,20 @@
 // ==UserScript==
 // @name         twittch videospeed display
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  display the videospeed
-// @author       You
+// @author       ichigatsu
 // @match        https://www.twitch.tv/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nyanco.me
 // @grant        none
+// @updateURL    https://github.com/manyu-a/tpm_script/raw/main/twch_vidspd.user.js
 // ==/UserScript==
 
 // https://www.twitch.tv/
 // https://www.google.co.jp/
 
 
-function SEL(){ return document.querySelector('#live-channel-stream-information > div > div > div.Layout-sc-1xcs6mc-0.dPakkt.metadata-layout__split-top > div.Layout-sc-1xcs6mc-0 > h2')}
+function SEL(){ return document.querySelector('[data-a-target="stream-title"]')}
 function TAR(){ return document.querySelector('.vsc-controller').shadowRoot.querySelector("#controller > span.draggable").textContent}
 
 // document.querySelector(TAR).shadowRoot.querySelector("#controller")
