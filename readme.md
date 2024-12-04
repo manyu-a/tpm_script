@@ -15,3 +15,6 @@ mini版は「記録」(\~/score_activities)用、そうじゃない方は「ス�
 ## [my site info](my%20site%20info)
 [uAutoPagerize](https://chrome.google.com/webstore/detail/uautopagerize/kdplapeciagkkjoignnkfpbfkebcfbpb?hl=ja)を[IIDX Score Table](https://score.iidx.app/)の曲一覧(\~/users/xxxx-xxxx/scores, score_activities)
 上で作動させるためのメモ書き。MY_SITEINFOに追記することでページの継ぎ足しが可能。
+
+## [csv2table.js](csv2table.js)
+[☆11 難易度表](https://w.atwiki.jp/bemani2sp11/pages/1.html)で動くブックマークレット。ノマゲ難易度表で動かしているが、ハード難易度表でもうごくかも。
